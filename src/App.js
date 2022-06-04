@@ -1,4 +1,5 @@
-import BadPhoneInput from './components/BadPhoneInput';
+import BrazilianPhone from './components/BrazilianPhone';
+import BrazilianPhone2 from './components/BrazilianPhone2';
 import './App.css';
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
     <div className="App">
       <h1>Meme Design</h1>
       <p className='subtitle'>A collection of the worst, and yet, the funniest UX designs</p>
-      <BadPhoneInput />
+      <BrazilianPhone />
+      <BrazilianPhone2 />
     </div>
   );
 }
