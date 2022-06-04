@@ -1,0 +1,15 @@
+.wrapper>label {
+    display: block;
+    margin: 10px 0;
+}
+
+.wrapper select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 820px) {
+    .wrapper {
+        width: 400px;
+    }
+}
